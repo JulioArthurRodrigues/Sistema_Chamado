@@ -5,11 +5,7 @@
 }
 
 body{
-    background-image: url("../images/IMAGEM\ NQA\ -\ \ LOGIN.png");
-    background-repeat: no-repeat;
-    background-size: 1300px;
-    background-attachment: fixed;
-    background-position: center;
+    background-color: #fce306;
 }
 
 body{
@@ -22,5 +18,36 @@ body{
 form{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
+    width: 800px;
+    height: 200px;
+    background-color: #fce306;
+    padding: 30px;
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+input{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 20px;
+}
+button{
+    background-color: #2CA7FF;
+    width: 325px;
+    height: 50px;
+    font-size: 32px;
+    color: white;
+    border-radius: 80px;
+}
+.Botão{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
 }
