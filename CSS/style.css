@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #fce306;
+    background-color: #f0dc29;
 }
 
 body{
@@ -22,8 +22,9 @@ form{
     gap: 10px;
     width: 800px;
     height: 200px;
-    background-color: #fce306;
+    background-color: #f0dc29;
     padding: 30px;
+    border-radius: 40px;
 }
 label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,5 +50,12 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
     margin-top: 45px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
 }
