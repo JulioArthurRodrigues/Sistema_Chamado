@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #f0dc29;
+    background-color: #9411ffec;
 }
 
 body{
@@ -22,7 +22,7 @@ form{
     gap: 10px;
     width: 800px;
     height: 200px;
-    background-color: #f0dc29;
+    background-color: #971afdec;
     padding: 30px;
     border-radius: 40px;
 }
@@ -45,8 +45,9 @@ button{
     font-size: 32px;
     color: white;
     border-radius: 80px;
+    margin-top: 25px;
 }
-.Botão{
+.botao{
     display: flex;
     flex-direction: column;
     align-items: center;
