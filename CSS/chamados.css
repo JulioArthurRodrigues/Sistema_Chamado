@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+img{
+   height: 40px; 
+}
+
+/* NAVBAR */
+.navbar {    
+    justify-content: space-between;
+    padding: 5px;
+    display: flex; 
+}
+
+/* COR NAVBAR */
+.bg-body-tertiary{
+    background-color: black !important;
+
+}
+
+/* COR FONTE NAVBAR */
+.nav-link{
+    color: white !important;
+}
+
+/* ÍCONE NAVBAR */
+.fasolid{
+    color: white;
+    font-size: 30px;
+}
+
+.container{
+    margin-top: 90px;
+}
