@@ -12,7 +12,7 @@ $senha = $_POST['senha'];
 
 include 'conexao.php';
 
-$insert = "INSERT INTO tb_user VALUES (null, 'Juliao', 'julioarp2004@gmail.com', 'Aluno', '123456')";
+$insert = "INSERT INTO tb_user VALUES (null, '$nome', '$email', '$setor', '$senha')";
 
 $query = $conexao->query($insert);
 
