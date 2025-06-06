@@ -16,7 +16,7 @@ $select = "SELECT * FROM tb_user WHERE email = '$email'";
 $query = $conexao->query($select);
 
 
-// ARMAZENA A 1ª LINHA DO BD DENTRO DA VARIAVEL RESULTADO 
+// ARMAZENA A 1ª LINHA DO BANCO DENTRO DA VARIÁVEL RESULTADO 
 $resultado = $query->fetch_assoc(); 
 
 
@@ -31,6 +31,5 @@ if ($email == $email_banco && $senha == $senha_banco) {
 }else {
     echo "<script>alert('Usuário ou Senha incorreto'); history.back() </script>";
 }
-
-
 ?>
+
