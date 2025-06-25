@@ -55,8 +55,8 @@
                                       <td> <?php echo $resultado ['nm_user']?></td>
                                       <td> <?php echo $resultado ['email']?></td>
                                       <td> <?php echo $resultado ['setor']?></td>
-                                      <td><i class="fa-solid fa-trash-can"></i></td>
-                                      <td><i class="fa-solid fa-user-pen"></i></td>
+                                      <td> <a href="delete_user.php?codigo=<?php echo $resultado ['id_user']?>"><i class="fa-solid fa-trash-can"></i></td>
+                                      <td> <a href="update_user.php?codigo=<?php echo $resultado ['id_user']?>"><i class="fa-solid fa-user-pen"></i></td>
                     
                         </tr>
                     
